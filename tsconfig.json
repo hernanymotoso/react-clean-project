@@ -6,16 +6,16 @@
     "module": "esnext",
     "moduleResolution": "node",
     "jsx": "react",
-    "rootDir": "src",
-    "baseUrl": "src",
+    "rootDir": "./src",
+    "baseUrl": "./src",
     "allowJs": true,
     "skipLibCheck": true,
     "allowSyntheticDefaultImports": true,
     "strict": true,
     "forceConsistentCasingInFileNames": true,
     "resolveJsonModule": true,
-    "isolatedModules": true,
+    "isolatedModules": false,
     "noEmit": true
   },
-  "include": ["src"]
+  "include": ["./src"]
 }
