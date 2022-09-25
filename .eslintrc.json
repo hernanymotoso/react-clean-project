@@ -19,6 +19,7 @@
   },
   "plugins": ["react", "@typescript-eslint", "prettier"],
   "rules": {
+    "no-shadow": "off",
     "import/no-extraneous-dependencies": "off",
     "no-useless-constructor": "off",
     "class-methods-use-this": "off",
