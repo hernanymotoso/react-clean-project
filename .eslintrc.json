@@ -19,6 +19,9 @@
   },
   "plugins": ["react", "@typescript-eslint", "prettier"],
   "rules": {
+    "no-useless-constructor": "off",
+    "class-methods-use-this": "off",
+    "max-classes-per-file": "off",
     "@typescript-eslint/consistent-type-definitions": "off",
     "@typescript-eslint/strict-boolean-expressions": "off",
     "prettier/prettier": "error",
